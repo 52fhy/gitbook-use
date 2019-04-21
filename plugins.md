@@ -171,7 +171,7 @@ editor.renderer.updateFontSize();
 ```
 
 使用插件：
-```json
+``` json
 "plugins": [
     "ace"
 ]
@@ -312,7 +312,7 @@ Class Stage
 {% endplantuml %}
 ```
 效果如下所示：
-
+```
 {% plantuml %}
 Class Stage
     Class Timeout {
@@ -323,7 +323,7 @@ Class Stage
     }
     Stage <|-- Timeout
 {% endplantuml %}
-
+```
 
 ## Graph
 
@@ -359,6 +359,7 @@ Class Stage
 ```
 
 效果如下所示：
+```
 {% graph %}
 {
     "title": "1/x * cos(1/x)",
@@ -375,6 +376,7 @@ Class Stage
     }]
 }
 {% endgraph %}
+```
 
 ## Chart
 使用 C3.js 或者 Highcharts 绘制图形。
@@ -418,6 +420,7 @@ type 可以是 `c3` 或者 `highcharts`, 默认是 `c3`.
 {% endchart %}
 ```
 效果如下所示：
+```
 {% chart %}
 {
     "data": {
@@ -437,6 +440,7 @@ type 可以是 `c3` 或者 `highcharts`, 默认是 `c3`.
     }
 }
 {% endchart %}
+```
 
 ## Sharing-plus
 分享当前页面，比默认的 sharing 插件多了一些分享方式。
