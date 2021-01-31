@@ -33,6 +33,7 @@ nvm alias default 10.21.0  // 使用 10.21.0  作为预设使用的 node 版本
 ## 通过NPM安装
 运行下面的命令进行安装
 ```bash
+npm config set registry https://registry.npm.taobao.org
 npm install gitbook-cli -g
 ```
 其中`gitbook-cli`是gitbook的一个命令行工具, 通过它可以在电脑上安装和管理gitbook的多个版本.
