@@ -11,7 +11,7 @@ GitBook version: 3.2.3
 
 ## 环境要求
 
-* NodeJS(v4.0.0及以上，推荐[v10.21.0](https://npm.taobao.org/mirrors/node/latest-v10.x/))
+* NodeJS(v4.0.0及以上，推荐[v10.21.0，其他版本可能会不兼容。gitbook已经不更新了](https://npm.taobao.org/mirrors/node/latest-v10.x/))
 
 如果本地已有版本，推荐安装nvm：https://www.jianshu.com/p/6249d1d24914
 
