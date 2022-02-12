@@ -64,7 +64,7 @@ Installing GitBook 3.2.3
 /
 ```
 
-提示正在安装gitbook。快速安装方法：
+提示正在安装gitbook。加速安装方法：
 ``` bash
 wget https://gitee.com/52fhy/gitbook-use/attach_files/963279/download/gitbook_3.2.3.tar.gz
 tar zxvf gitbook_3.2.3.tar.gz -C ~/
@@ -90,8 +90,19 @@ gitbook serve
 gitbook build
 ```
 
-生成epub:
+生成epub、pdf:
 ```
 gitbook epub
+gitbook pdf
 ```
+
+生成epub、pdf需要系统安装有calibre: https://calibre-ebook.com/download
+```
+# linux 通用
+sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
+
+# ubuntu 版本可能比较老
+sudo apt install calibre
+```
+
 
