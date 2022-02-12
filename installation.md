@@ -96,7 +96,7 @@ gitbook epub
 gitbook pdf
 ```
 
-生成epub、pdf需要系统安装有calibre: https://calibre-ebook.com/download
+生成epub、pdf需要系统安装有calibre: https://calibre-ebook.com/download 或 https://download.calibre-ebook.com/5.html
 ```
 # linux 通用
 sudo -v && wget -nv -O- https://download.calibre-ebook.com/linux-installer.sh | sudo sh /dev/stdin
