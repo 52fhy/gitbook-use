@@ -66,7 +66,7 @@ Installing GitBook 3.2.3
 
 提示正在安装gitbook。加速安装方法：
 ``` bash
-wget https://gitee.com/52fhy/gitbook-use/attach_files/963279/download/gitbook_3.2.3.tar.gz
+wget https://gitee.com/52fhy/gitbook-use/releases/download/1.0/gitbook_3.2.3.tar.gz
 tar zxvf gitbook_3.2.3.tar.gz -C ~/
 ```
 
@@ -74,7 +74,7 @@ tar zxvf gitbook_3.2.3.tar.gz -C ~/
 可以使用vscode、typora等支持markdown的工具编辑。
 gitbook 项目结构示例：
 ``` bash
-wegt https://gitee.com/52fhy/gitbook-use/attach_files/962871/download/gitbook-example.zip
+wget https://gitee.com/52fhy/gitbook-use/releases/download/1.0/gitbook-example.zip
 ```
 
 ## 预览书籍
