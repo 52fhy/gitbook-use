@@ -11,7 +11,7 @@ GitBook version: 3.2.3
 
 ## 环境要求
 
-* NodeJS(v4.0.0及以上)， 推荐[v10.21.0](https://npm.taobao.org/mirrors/node/latest-v10.x/) ， 其他版本可能会不兼容。gitbook已经不更新了。
+* NodeJS(v4.0.0及以上)， 推荐[v10.21.0](https://registry.npmmirror.com/binary.html?path=node/latest-v10.x/) ， 其他版本可能会不兼容。gitbook已经不更新了。
 
 如果本地已有版本，推荐安装nvm：https://www.jianshu.com/p/6249d1d24914
 
@@ -37,7 +37,7 @@ export NVM_DIR="$HOME/.config/nvm"
 接着就可以正常使用nvm了：
 ``` bash
 # 设置NVM下载加速
-NVM_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node  nvm i 10.21.0 
+NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com  nvm i 10.21.0 
 
 # 常用命令
 nvm i 10.21.0  // 安装nodejs 10
@@ -51,8 +51,8 @@ nvm uninstall 10.21.0     // 移除 node
 ## 通过NPM安装
 运行下面的命令进行安装gitbook-cli
 ```bash
-npm config set registry https://registry.npm.taobao.org
-npm install gitbook-cli -g
+npm config set registry https://registry.npmmirror.com
+npm install gitbook-cli -g 
 ```
 其中`gitbook-cli`是gitbook的一个命令行工具, 通过它可以在电脑上安装和管理gitbook的多个版本.
 
