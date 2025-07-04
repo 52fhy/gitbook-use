@@ -37,7 +37,7 @@ export NVM_DIR="$HOME/.config/nvm"
 接着就可以正常使用nvm了：
 ``` bash
 # 设置NVM下载加速
-NVM_NODEJS_ORG_MIRROR=https://registry.npmmirror.com  nvm i 10.21.0 
+NVM_NODEJS_ORG_MIRROR=https://npmmirror.com/mirrors/node nvm i 10.22.0
 
 # 常用命令
 nvm i 10.21.0  // 安装nodejs 10
